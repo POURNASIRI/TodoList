@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>TODO LIST</h1>
+    <div class="wrapper">
+        <div class="wrapper__container">
+            <div class="task__input">
+                <i class="fa-solid fa-bars"></i>
+                <input type="text" placeholder="Add a new task">
+            </div>
+            <div class="controls">
+                <div class="filter">
+                    <span id="all" class="active">All</span>
+                    <span id="pending">pending</span>
+                    <span id="completed">completed</span>
+                </div>
+                <button class="clear__btn">Clear All</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="task__box">
+                <!-- <li class="task">
+                    <label for="1">
+                        <input  type="checkbox" id="1">
+                        <p>Renew gym members</p>
+                    </label>
+                    <div class="setting">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <ul class="task__menu">
+                            <li><i class="fa-solid fa-pen"></i>Edit</li>
+                            <li><i class="fa-solid fa-trash"></i>Delete</li>
+    
+                        </ul>
+                    </div>
+                </li> -->
+            </div>
+       
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
